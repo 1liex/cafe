@@ -5,11 +5,13 @@ import s from "./Star_fill.svg";
 import ss from "./Star.svg";
 import photo from "./download.jpg";
 import photo1 from "./gg.jpg";
+import photo2 from "./c.jpg";
+// -----------------------------------
 export default function Box() {
   const orderss = [
     {
       id: 1,
-      orderName: "Cofe",
+      orderName: "Coffe",
       evaluate: "3.4",
       votes: "(6)",
       price: "10$",
@@ -19,49 +21,26 @@ export default function Box() {
     },
     {
       id: 2,
-      orderName: "Spanish lati",
+      orderName: "Spanish latte",
       evaluate: "4.2",
       votes: "(20)",
       price: "13$",
       star: s,
       img: photo1,
     },
+
     {
       id: 3,
-
-      evaluate: "0",
-      votes: "(0)",
-      price: "0$",
-      star: ss,
+      orderName: "Cappuccino",
+      evaluate: "4.8",
+      votes: "(70)",
+      price: "6$",
+      star: s,
+      img: photo2,
     },
-    {
-      id: 4,
-
-      evaluate: "0",
-      votes: "(0)",
-      price: "0$",
-      star: ss,
-    },
-    {
-      id: 5,
-
-      evaluate: "0",
-      votes: "(0)",
-      price: "0$",
-      star: ss,
-    },
-    {
-      id: 6,
-
-      evaluate: "0",
-      votes: "(0)",
-      price: "0$",
-      star: ss,
-    },
-   
   ];
 
-  const gg = orderss.map((order) => {
+  const coffe = orderss.map((order) => {
     return (
       <Carde
         key={order.id}
@@ -94,10 +73,11 @@ export default function Box() {
               justifyContent: "center",
             }}
           >
-            {gg}
+            {coffe}
           </div>
         </div>
       </div>
     </>
   );
 }
+// ---------------------------------------------------------
