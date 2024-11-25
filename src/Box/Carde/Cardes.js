@@ -27,7 +27,7 @@ export default function Carde({
             <p className="votes">{votes}</p>
           </div>
           <div>
-            <p className="sold" style={{ color: "red" }}>
+            <p className="sold" style={{ color: "#ED735D" }}>
               {sold}
             </p>
           </div>

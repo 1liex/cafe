@@ -4,8 +4,12 @@ import Button from "./Button/Button";
 import s from "./Star_fill.svg";
 import ss from "./Star.svg";
 import photo from "./download.jpg";
+import photo3 from "./g.jpg";
 import photo1 from "./gg.jpg";
 import photo2 from "./c.jpg";
+import photo4 from "./m.jpg";
+import photo5 from "./iced-caramel-latte.jpg";
+import photo6 from "./s.jpg";
 // -----------------------------------
 export default function Box() {
   const orderss = [
@@ -37,6 +41,35 @@ export default function Box() {
       price: "6$",
       star: s,
       img: photo2,
+    },
+
+    {
+      id: 4,
+      orderName: "Espresso",
+      evaluate: "",
+      votes: "(7)",
+      price: "13$",
+      star: s,
+      img: photo6,
+    },
+    {
+      id: 5,
+      orderName: "Iced caramel latte",
+      evaluate: "4.3",
+      votes: "(42)",
+      price: "8$",
+      star: s,
+      img: photo5,
+    },
+    {
+      id: 6,
+      orderName: "Macha",
+      evaluate: "1.2",
+      votes: "(7)",
+      price: "13$",
+      star: s,
+      img: photo4,
+      solde: "sold out"
     },
   ];
 

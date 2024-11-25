@@ -17,8 +17,6 @@ export default function App() {
           style={{
             display: "flex",
             justifyContent: "center",
-            
-            
           }}
         >
           <Box />
