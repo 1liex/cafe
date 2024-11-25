@@ -1,0 +1,35 @@
+.box {
+  background-color: #1b1d1f;
+  width: 100%;
+  padding: 80px;
+  margin: 0 5em 3em;
+  border: none;
+  border-radius: 0.8em;
+  background-image: url(./vector.svg);
+  background-position: center;
+  background-position-y: 8%;
+  background-position-x: 58%;
+  background-repeat: no-repeat;
+}
+
+.box .div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box .div h1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #fef7ee;
+  margin-bottom: 20px;
+}
+
+.box .div .p {
+  display: flex;
+  text-align: center;
+  width: 480px;
+  color: #6f757c;
+}

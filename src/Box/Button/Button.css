@@ -1,0 +1,31 @@
+.button {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+}
+
+.button .content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.button .content button {
+  padding: 0.6em 1em;
+  border: none;
+  margin: 0.4em;
+  color: #fef7ee;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 0.5em;
+  margin-bottom: 0.4em;
+  transition: background-color 0.15s ease-in-out;
+}
+
+.button .content button:hover {
+  background-color: #6f757c;
+  cursor: pointer;
+}
