@@ -3,7 +3,7 @@ import Box from "./Box/Box";
 import "./App.css";
 export default function App() {
   return (
-    <div>
+    <div style={{width:'100%'}}>
       <Head />
       <div
         style={{
